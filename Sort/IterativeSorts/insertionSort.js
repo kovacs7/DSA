@@ -7,6 +7,8 @@ worst & average case time - O(n2) | best case sorted list O(n2)
 space-O(1)
 */
 
+// animation- https://yongdanielliang.github.io/animation/web/InsertionSortNew.html
+
 function insertionSort(nums) {
   for (let i = 0; i < nums.length; i++) {
     let count = 0;

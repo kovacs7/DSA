@@ -5,6 +5,8 @@ worst & average case time - O(n2) | best case sorted list O(n)
 space-O(1)
 */
 
+// animation - https://yongdanielliang.github.io/animation/web/BubbleSortNew.html
+
 function bubbleSort(nums) {
   let swapped = false;
   do {
