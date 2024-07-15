@@ -5,3 +5,4 @@ We learn these things when we start DSA, the BIG O of time and space. The whole 
 In most cases, there is a hidden thing that we use for this trade-off. The third most important thing after time and space complexity is the readability and maintainability of code. There is no point in writing gibberish code that is hard to understand and read. You might as well use assembly to write code.
 
 For all animations: https://yongdanielliang.github.io/animation/animation.html
+https://visualgo.net/en
