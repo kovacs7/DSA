@@ -6,3 +6,5 @@ In most cases, there is a hidden thing that we use for this trade-off. The third
 
 For all animations: https://yongdanielliang.github.io/animation/animation.html
 https://visualgo.net/en
+
+For time complexity of built-in data structures: https://cs.slides.com/colt_steele/built-in-data-structures-25

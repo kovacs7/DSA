@@ -43,3 +43,18 @@ function insertionSort(nums) {
   }
   return nums;
 }
+
+// go-to solution
+
+function insertionSort(nums) {
+  for (let i = 0; i < nums.length; i++) {
+    for (let j = i; nums[j] < nums[j-1] && j > 0; j--) {
+      let temp = nums[j];
+      nums[j] = nums[j-1];
+      nums[j-1] = temp;
+    }
+  }
+  return nums;
+}
+
+console.log(insertionSort([10, 12, 14, 1, 16, 20, 10, 11]));

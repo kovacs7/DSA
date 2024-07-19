@@ -20,6 +20,7 @@ function factorial(n) {
 
 function nestedAdd(array) {
   let sum = 0;
+  
   if (Array.isArray(array)) {
     for (let i = 0; i < array.length; i++) {
       if (Array.isArray(array[i])) {
@@ -29,7 +30,14 @@ function nestedAdd(array) {
       }
     }
   }
+
+  // let arr = array.flat(Infinity)
+  // for (let i = 0; i < arr.length; i++){
+  //   sum += arr[i]
+  // } 
+
+
   return sum;
 }
 
-// console.log(nestedAdd([10, [12, 14, [1], [16, [20]]], 10, 11]));
+console.log(nestedAdd([10, [12, 14, [1], [16, [20]]], 10, 11]));

@@ -24,3 +24,21 @@ function bubbleSort(nums) {
   } while (swapped);
   return nums
 }
+
+function bubbleSort(nums) {
+  for (let i = nums.length - 1; i >= 1; i--){
+    let didSwap = 0
+    for ( let j = 0 ; j <= i - 1; j++){
+      if (nums[j] > nums[j+1]){
+        const temp = nums[j]
+        nums[j] = nums[j+1]
+        nums[j+1] = temp
+        didSwap = 1
+      }
+    }
+    if (!didSwap) break;
+  }
+  return nums
+}
+
+// console.log(bubbleSort([10, 12, 14, 1, 16, 20, 10, 11]));
